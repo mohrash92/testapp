@@ -16,6 +16,6 @@ jobs:
       - uses: dessant/issue-states@v2
         with:
           github-token: ${{ github.token }}
-          open-issue-columns: 'Needs review, In progress, Ready to Play, Ready to Estimate'
-          closed-issue-columns: 'Done, Archive'
+          open-issue-columns: 'Reviewer approved, Needs Review, In progress, Ready to Play, Ready to Estimate'
+          closed-issue-columns: 'Done'
           log-output: false
